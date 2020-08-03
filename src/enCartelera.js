@@ -1,4 +1,3 @@
-
 const funciones = require("../customFunctions");
 
 let moviesTotal = funciones.leer("./data/movies.json");

@@ -10,9 +10,3 @@ pelisOrdenadas.sort();
 let pelisOrdenadasString = pelisOrdenadas.reduce((acum, actual) => `${acum}\n${actual}`);
 let pieDePagina = "Recordá que podés visitar las secciones:\n\nEn Cartelera\nMás votadas\nSucursales\nContacto\nPreguntas frecuentes";
 module.exports = `${tituloHome}\n\n\nTotal de películas en cartelera: ${cantMovies}\n\n\n${pelisOrdenadasString}\n\n\n${pieDePagina}`;
-
-
-
-
-
-

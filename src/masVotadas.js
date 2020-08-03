@@ -1,6 +1,6 @@
 const funciones = require("../customFunctions");
-const path = require('path');
-let moviesTotal = funciones.leer('./data/movies.json');
+
+let moviesTotal = funciones.leer("./data/movies.json");
 let movies = moviesTotal.movies;
 
 let tituloMasVotadas = "Más Votadas";
